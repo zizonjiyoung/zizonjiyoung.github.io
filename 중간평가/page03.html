@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * { 
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        .clear {
+            clear: both;
+        }
+        .round {
+            border-radius: 20px;
+        }
+        #page {
+            width: 100%;
+            margin: 0;
+        }
+        #logo {
+            float: left;
+            margin: 10px 20px 30px 20px;
+        }
+        table {
+            margin: 0 auto;
+            border-collapse: separate;
+            border-spacing: 0 20px;
+        }
+        td {
+            padding: 20px;
+        }
+        header {
+            width: 100%;
+            height: 100px;
+            border-bottom: solid 1px #ffbb28;
+            background: #ffbb28;
+        }
+        #top {
+            float: right;
+            margin: 30px 20px 0 0;
+        }
+        #top a {
+            text-decoration: none;
+            color: inherit;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+        footer {
+            width: 100%;    
+            height: 150px;
+            border-top: solid 1px #ffbb28;
+            background: #ffbb28;
+        }
+        aside::after, footer::after, header::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+        #address {
+            float: left;
+            margin: 30px 0 0 50px;
+            color: #c88900;
+        }
+        body{
+            background-image: url('img/일러스트.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <div id='page'>
+    <header>
+        <div id='logo'>
+            <a href='index.html'><img src='img/logo.png' width='30%'></a>
+        </div>
+        <div id='top' style="color: #453209;"><h4>
+            <a href='page01.html'>특징</a> |
+            <a href='page02.html'>교통 유의사항</a> |
+            <a href='page03.html'>날씨별 주의사항</a> |
+            <a href='page04.html'>뉴스</a> | 
+            <a href='page05.html'>행사</a>
+            </h4>
+        </div>
+    </header>
+    <div class='clear'></div>
+
+    <br>
+    <h2>»»————- &emsp;이런 날에는 이렇게 주의 하자!&emsp; ————-««</h2>
+    <br><br>
+    <table>
+        <tr>
+            <td><img src='img/rain.png' width="30px"></td>
+            <td class='round' bgcolor="#ffe8b8">비 오는 날</td>
+            <td class='round' bgcolor="#ffffff">도로와 타이어 사이에 물의 막이 생기는 <b>수막현상</b>을 조심하세요!<br>
+                수막현상으로 인해 타이어가 미끄러집니다. 
+                <br>때문에 평소보다 공기압 10%-15% 정도를 올려서 주행하는 것이 좋습니다.
+            <br>전조등을 항시 켜고 서행 운전을 생활화하면 좋아요. 
+            <br>물웅덩이 등의 위험요인도 잘 주시하세요!</td>
+        </tr>
+        <tr></tr>
+        <tr>
+            <td><img src='img/fog.png' width="30px"></td><td class='round' bgcolor="#ffe8b8">안개 낀 날</td>
+            <td class='round' bgcolor="#ffffff">최고 속도의 절반으로 주행해요!<br>전조등, 안개등, 후미등, 경고등을 <b>반드시</b> 점등해야 한다는 걸 잊지 말아요.
+            <br>또 안전거리 유지와 방어운전, 감속운전은 필수!</td>
+        </tr>
+        <tr></tr>
+        <tr>
+            <td><img src='img/snow.png' width="30px"></td><td class='round' bgcolor="#ffe8b8">눈 오는 날</td>
+            <td class='round' bgcolor="#ffffff">스노우 체인을 장착하세요!<br>창문과 전조등, 비상등에 눈이 쌓였다면 바로 제거를 부탁합니다.
+                <br>도로교통법에 따라 눈이 2cm 이상 쌓이면
+                <br> 최고 속도의 50% 감속운행을 해야 하는 것 잊지 말자구요.
+            <br>안전거리 확보와 비상등 항시 점등으로 사고가 없게끔 합시다.</td>
+        </tr>
+        <tr></tr>
+        <tr>
+            <td><img src='img/wind.png' width="30px"></td><td class='round' bgcolor="#ffe8b8">바람 부는 날</td>
+            <td class='round' bgcolor="#ffffff">갓길 옆의 바람 자루, 풍향, 풍속계의 상태를 주시하세요!<br><b>횡풍표지판</b>이 있다면 특별히 유의해야 합니다.
+            <br>그리고 가변정보표지판 안내 시엔 <b>꼭</b> 감속이 필요합니다.<br>제한속도 80km/hr 이하로 주행합시다. 
+            <br>장대교량을 통과할 때, 터널에 진출할 때도 조심하세요.</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+
+    <footer>
+        <div id='address' style="color: #c88900">
+            아이콘 제작자 ⯎ Freepik, justicon, Pixel perfect - Flaticon
+        </div>
+    </footer>
+    <div class='clear'></div>
+    </div>
+
+</body>
+</html>
